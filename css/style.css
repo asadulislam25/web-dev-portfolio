@@ -1,5 +1,12 @@
 header .nav{
     display: flex;
+    justify-content: space-between;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 50px;
 }
 
 .open-sans-main {
@@ -9,4 +16,37 @@ header .nav{
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+}
+.main-title{
+    font-weight: 800;
+    font-size: 35px;
+}
+span{
+    color: rgb(255, 106, 0);
+}
+div ul li{
+    list-style-type: none;
+}
+div ul li a{
+    text-decoration: none;
+}
+.btn{
+    background-color: rgb(255, 106, 0);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 30px;
+    font-size: 20px;
+}
+.nav-menu ul{
+    display: flex;
+    gap: 30px;
 }
