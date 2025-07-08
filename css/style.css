@@ -1,3 +1,6 @@
+header{
+    background-color: #FFF8F3;
+}
 header .nav{
     display: flex;
     justify-content: space-between;
@@ -35,7 +38,7 @@ div ul li a{
     color: white;
     border: none;
     border-radius: 10px;
-    padding: 20px 30px;
+    padding: 10px 15px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -49,4 +52,25 @@ div ul li a{
 .nav-menu ul{
     display: flex;
     gap: 30px;
+}
+/* hero section style */
+.hero-section{
+    display: flex;
+    align-items: center;
+    margin: 0px 38px 0px 230px;
+}
+.hero-item h3{
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.hero-item h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+.btn-group{
+    display: flex;
+    gap: 30px;
+    margin: 0 30px;
 }
